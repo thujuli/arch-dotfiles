@@ -1,0 +1,5 @@
+configuration {
+ font: "JetBrainsMono 10";
+ icon-theme: "Papirus";
+ }
+@theme "nord"
