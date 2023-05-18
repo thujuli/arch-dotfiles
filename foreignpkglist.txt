@@ -1,0 +1,7 @@
+google-chrome
+i3lock-color
+nordic-theme
+nordzy-cursors
+spotify
+yay
+zoom
