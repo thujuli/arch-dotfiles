@@ -2,7 +2,7 @@ require("mason").setup()
 require("mason-lspconfig").setup()
 
 require("mason-lspconfig").setup {
-    ensure_installed = { "lua_ls", "pyright" },
+    ensure_installed = { "lua_ls", "pyright", "html", "cssls","tsserver" },
 
     automatic_installation = true,
 }
@@ -36,4 +36,16 @@ lspconfig.pyright.setup {
 
 lspconfig.lua_ls.setup {
   capabilities = capabilities,
+}
+
+lspconfig.html.setup {
+  capabilities = capabilities
+}
+
+lspconfig.cssls.setup {
+  capabilities = capabilities
+}
+
+lspconfig.tsserver.setup {
+  capabilities = capabilities
 }
