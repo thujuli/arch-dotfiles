@@ -29,10 +29,11 @@ local plugins = {
   'lewis6991/gitsigns.nvim',
   'lukas-reineke/indent-blankline.nvim',
   'lewis6991/impatient.nvim',
- {
+  {
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
   },
+  "windwp/nvim-ts-autotag",
 
   -- LSP & Completion
   {
