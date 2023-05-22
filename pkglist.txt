@@ -4,7 +4,6 @@ base-devel
 bat
 bluez
 bluez-utils
-brightnessctl
 discord
 dnsmasq
 dunst
@@ -57,7 +56,9 @@ unzip
 virt-manager
 xautolock
 xdg-user-dirs
+xf86-video-intel
 xorg-server
+xorg-xbacklight
 xorg-xinit
 xorg-xrandr
 zoxide
