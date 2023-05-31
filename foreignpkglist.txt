@@ -2,6 +2,7 @@ google-chrome
 i3lock-color
 nordic-theme
 nordzy-cursors
+rofi-greenclip
 spotify
 ssmtp
 yay
