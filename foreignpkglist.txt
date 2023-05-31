@@ -3,5 +3,6 @@ i3lock-color
 nordic-theme
 nordzy-cursors
 spotify
+ssmtp
 yay
 zoom
