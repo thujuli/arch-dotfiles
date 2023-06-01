@@ -27,6 +27,7 @@ linux
 linux-firmware
 lxappearance
 man-db
+mpv
 neofetch
 neovim
 networkmanager
@@ -54,6 +55,7 @@ thunar
 tmux
 trash-cli
 ttf-font-awesome
+unrar
 unzip
 virt-manager
 wget
