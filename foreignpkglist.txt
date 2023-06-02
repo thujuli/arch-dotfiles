@@ -1,3 +1,4 @@
+batsignal
 google-chrome
 i3lock-color
 nordic-theme
