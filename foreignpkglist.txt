@@ -3,6 +3,7 @@ google-chrome
 i3lock-color
 nordic-theme
 nordzy-cursors
+postman-bin
 rofi-greenclip
 spotify
 ssmtp
