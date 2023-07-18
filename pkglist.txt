@@ -2,6 +2,7 @@ alsa-utils
 base
 base-devel
 bat
+blueman
 bluez
 bluez-utils
 cronie
@@ -45,6 +46,7 @@ picom
 polybar
 postgresql
 pulseaudio-alsa
+pulseaudio-bluetooth
 pycharm-community-edition
 reflector
 ripgrep
