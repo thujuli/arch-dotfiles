@@ -2,7 +2,7 @@
 local keymap = vim.keymap.set
 
 -- Remap leader
-vim.g.mapleader = ' '
+vim.g.mapleader = " "
 
 -- Modes
 --   normal_mode = 'n',
@@ -12,34 +12,35 @@ vim.g.mapleader = ' '
 
 -- Normal Mode
 -- Better window navigation
-keymap('n', '<C-h>', '<C-w>h')
-keymap('n', '<C-j>', '<C-w>j')
-keymap('n', '<C-k>', '<C-w>k')
-keymap('n', '<C-l>', '<C-w>l')
+keymap("n", "<C-h>", "<C-w>h")
+keymap("n", "<C-j>", "<C-w>j")
+keymap("n", "<C-k>", "<C-w>k")
+keymap("n", "<C-l>", "<C-w>l")
 
--- Insert Mode 
+-- Insert Mode
 -- fast to insert mode
-keymap('i','jk', '<Esc>')
+keymap("i", "jk", "<Esc>")
+keymap("i", "JK", "<Esc>")
 
 -- Visual Mode
 -- Stay in indent mode
-keymap('v', '<', '<gv')
-keymap('v', '>', '>gv')
+keymap("v", "<", "<gv")
+keymap("v", ">", ">gv")
 
 -- Nvim-tree
-keymap('n', '<C-n>', ':NvimTreeToggle<CR>')
+keymap("n", "<C-n>", ":NvimTreeToggle<CR>")
 
 -- Telescope
-local builtin = require('telescope.builtin')
-keymap('n', '<leader>ff', builtin.find_files, {})
-keymap('n', '<leader>fg', builtin.live_grep, {})
-keymap('n', '<leader>fb', builtin.buffers, {})
-keymap('n', '<leader>fh', builtin.help_tags, {})
+local builtin = require("telescope.builtin")
+keymap("n", "<leader>ff", builtin.find_files, {})
+keymap("n", "<leader>fg", builtin.live_grep, {})
+keymap("n", "<leader>fb", builtin.buffers, {})
+keymap("n", "<leader>fh", builtin.help_tags, {})
 
 -- Bufferline
-keymap('n','<S-l>',':bnext<CR>')
-keymap('n','<S-h>',':bprevious<CR>')
-keymap('n','<S-q>',':bdelete!<CR>')
+keymap("n", "<S-l>", ":bnext<CR>")
+keymap("n", "<S-h>", ":bprevious<CR>")
+keymap("n", "<S-q>", ":bdelete!<CR>")
 
 -- Comment (comment.nvim)
 -- Normal Mode
